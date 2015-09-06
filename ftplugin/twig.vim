@@ -14,5 +14,6 @@ setlocal formatoptions+=tcqln
 " setlocal formatlistpat=^\\s*\\d\\+\\.\\s\\+\\\|^[-*+]\\s\\+
 
 let b:undo_ftplugin .= "|setl cms< com< fo<"
+set syntax=html.twig
 
 " vim:set sw=2:
